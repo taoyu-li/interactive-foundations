@@ -290,7 +290,7 @@ width: 20px;
     top: 300px;
     left: 30px;
     color: yellow;
-    font-size: 50px; 
+    font-size: 30px; 
     transition: opacity 3s linear;
       opacity:0;
       filter:alpha(opacity=0);
