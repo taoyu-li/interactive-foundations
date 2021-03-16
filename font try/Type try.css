@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Anthony;
+  src: /*url("../fonts/Millimetre-Light_web.woff2") format("woff2"),
+       url("../fonts/Millimetre-Light_web.woff") format("woff"),*/
+       url("fonts/Anthony.woff2") format("woff2"),
+       url("fonts/Anthony.woff") format("woff");
+     
+}
+
+
+
+body{
+font-family:Anthony;
+font-family: 'Ranchers', cursive;
+font-weight: lighter;
+text-align: right;
+
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.fire1 img{
+    position: relative;
+    z-index:1;
+    top:0px; 
+    left:0px;
+    height:50px;
+    background-color: white;
+    filter:invert(1);
+}
+
+.fire2 img{
+    position: relative;
+    z-index:1;
+    bottom:-700px; 
+    left:0px;
+    height:50px;
+    background-color: white;
+    filter:invert(1);
+}
+
+h1{
+	position: relative;
+	font-family: 'Ranchers', cursive;
+	font-size:150px;
+	color: #ffffff;
+	top:0;
+}
+
+
+
+
+h2{
+	font-family:Anthony;
+	font-size:50px;
+	color: #ffffff;
+}
+
+a{
+	font-family:Anthony;
+	font-size:20px;
+	color: #ffffff;
+}
+
+
+
