@@ -1,0 +1,105 @@
+body{
+
+}
+
+*{
+    box-sizing:border-box;
+    outline:none;
+}
+
+.typeface{
+    position: relative;
+    background: #ffffff;
+    top:0;
+    left:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+input[type="checkbox"]{
+    position:fixed;
+    z-index: 2;
+    top:5px;
+    right:100px;
+    cursor:pointer;
+    -webkit-appearance:none;
+}
+input[type="checkbox"]::before{
+    content:'DARK';
+    position: absolute;
+    color:#ffffff;
+    background: #000000;
+    padding:10px 20px;
+}
+
+input[type="checkbox"]:checked::before{
+    content:'LIGHT';
+    color:#000000;
+    background: #ffffff;
+}
+
+
+input[type="checkbox"]:checked~*{
+    filter:invert(1);
+}
+
+
+.fire1 img{
+    position: relative;
+    z-index:1;
+    top:0px; 
+    left:0px;
+    height:50px;
+    background-color: white;
+}
+
+.fire2 img{
+    position: relative;
+    z-index:1;
+    bottom:0px; 
+    left:0px;
+    height:50px;
+    background-color: white;
+}
+
+
+section img{
+    top:600px;
+    margin:0 auto;
+}
+
+
+.cursor{
+    position: fixed;
+    height: 60px;
+    width: 60px;
+     z-index:3;
+    border-radius: 50%;
+    background: #fff;
+    transform: translate(-50%,-50%);
+    transform: 0.1s;
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
+
+
+
+.back {
+    position:fixed;
+    z-index: 2;
+    top:5px;
+    left:100px;
+    content:'BACK';
+    color:#ffffff;
+    background: #000000;
+    padding:10px 20px;
+
+}
+
+.back:hover{
+  color: #000;
+  background: #fff;
+}
