@@ -38,7 +38,7 @@ text-align: right;
 .fire2 img{
     position: relative;
     z-index:1;
-    bottom:-700px; 
+    bottom:-800px; 
     left:0px;
     height:50px;
     background-color: white;

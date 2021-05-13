@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link href="./interview.css" rel="stylesheet">
+		<title></title>
+		<style type="text/css">
+			
+		</style>
+	</head>
+	<body>
+
+        <div class="introduction">
+			<div id="interview">INTERVIEW</div>
+			<div id="About">Questions about the work of UX Designer.
+			</div>
+			<div id="play">click the botton to play the video
+			</div>
+		</div>
+
+		<div class="anniu"><button id="Q1" type="button" onclick="touch()">Q1</button>
+		</div>
+				<div class="anniu"><button id="Q2" type="button" onclick="touch()">Q2</button>
+		</div>
+				<div class="anniu"><button id="Q3" type="button" onclick="touch()">Q3</button>
+		</div>
+				<div class="anniu"><button id="Q4" type="button" onclick="touch()">Q4</button>
+		</div>
+				<div class="anniu"><button id="Q5" type="button" onclick="touch()">Q5</button>
+		</div>				
+		        <div class="anniu"><button id="Q6" type="button" onclick="touch()">Q6</button>
+		</div>
+				<div class="anniu"><button id="Q7" type="button" onclick="touch()">Q7</button>
+		</div>
+
+
+<div class="interview1">
+     <h1>INTERVIEW</h1>
+      </ul>
+    	</div>
+<div class="index">
+      <ul>
+        <li><a href="../index.html"><h2>HOME</h2></a></li>
+      </ul>
+    	</div>
+<!-- 		<div class="zhezhao" id='zhezhao'>
+			<div class="tankuang1">
+				
+					<div id="header"> <br/><br/>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX? <br/><br/>
+
+woyouyizhixiaomaolvwoconglaiyebuqihuranyoutianxinxuelaichaoqitaquganji
+</div>
+					<div id="header-right" onclick="hidder()">x</div>
+			</div>
+		</div> -->
+
+
+		<!-- <script type="text/javascript">
+			document.getElementById('zhezhao').style.display="none";
+			function touch(){
+				document.getElementById('zhezhao').style.display="";
+			}
+			function hidder(){
+				document.getElementById('zhezhao').style.display="none";
+			}
+		</script> -->
+
+
+			<video id="video work" width="100%"controls>
+				<source src="./source/video.mp4">
+			</video>
+
+
+
+<script>
+var video = document.getElementById('video work');
+var firstQuestion = document.getElementById('Q1');
+var secondQuestion = document.getElementById('Q2');
+var thirdQuestion = document.getElementById('Q3');
+var fourthQuestion = document.getElementById('Q4');
+var fifthQuestion = document.getElementById('Q5');
+var sixthQuestion = document.getElementById('Q6');
+var seventhQuestion = document.getElementById('Q7');
+// var secondQuestion = ...
+
+firstQuestion.addEventListener("click", function (event) {
+    event.preventDefault();
+    video.play();
+    video.pause();
+    video.currentTime = 16;
+    video.play();
+}, false);
+
+secondQuestion.addEventListener("click", function (event) {
+    event.preventDefault();
+    video.play();
+    video.pause();
+    video.currentTime = 43;
+    video.play();
+}, false);
+
+thirdQuestion.addEventListener("click", function (event) {
+    event.preventDefault();
+    video.play();
+    video.pause();
+    video.currentTime = 59;
+    video.play();
+}, false);
+
+fourthQuestion.addEventListener("click", function (event) {
+    event.preventDefault();
+    video.play();
+    video.pause();
+    video.currentTime = 70;
+    video.play();
+}, false);
+
+fifthQuestion.addEventListener("click", function (event) {
+    event.preventDefault();
+    video.play();
+    video.pause();
+    video.currentTime = 94;
+    video.play();
+}, false);
+
+sixthQuestion.addEventListener("click", function (event) {
+    event.preventDefault();
+    video.play();
+    video.pause();
+    video.currentTime = 111;
+    video.play();
+}, false);
+
+seventhQuestion.addEventListener("click", function (event) {
+    event.preventDefault();
+    video.play();
+    video.pause();
+    video.currentTime = 125;
+    video.play();
+}, false);
+
+// secondQuestion.addEventListener...
+
+</script>
+
+
+
+	</body>
+</html>

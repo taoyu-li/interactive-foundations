@@ -1,0 +1,158 @@
+*{
+  box-sizing: border-box;
+    margin: 0;
+  padding: 0;
+}
+
+
+
+body{
+
+font-family: 'Ranchers', cursive;
+font-weight: lighter;
+text-align: left;
+
+  background: #ffffff;
+  display: flex;
+/*  align-items: center;*/
+justify-content: flex-start;
+  flex-direction: column;
+}
+.head img{
+    position: relative;
+    z-index:1;
+    top:0px; 
+    left:0px;
+    height:10px;
+    background-color: black;
+    margin: 0px;
+
+}
+
+.bottom img{
+    position: absolute;
+    z-index:1;
+    bottom:40px; 
+    left:0px;
+    height:10px;
+    background-color: black;
+    margin: 0px;
+
+}
+
+.middle img{
+    position: absolute;
+    z-index:1;
+    top:200px; 
+    left:0px;
+    height:2px;
+    background-color: black;
+    margin: 0px;
+
+}
+.cursor{
+    position: fixed;
+    height: 60px;
+    width: 60px;
+     z-index:7;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: translate(-50%,-50%);
+    transform: 0.1s;
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
+.nav{
+    position: absolute;
+    top:100px;
+  width:1660px;
+  height: 48px;
+  line-height: 48px;
+  margin: 50px auto;
+  background-color: #E8E7E3;
+  display: flex;
+}
+.nav li{
+  flex-grow: 1;
+}
+.nav a{
+  display: block;
+  color: #808080;
+  text-decoration: none;
+  font-size:15px;
+  text-align:center;
+}
+
+.nav a:hover{
+  background-color:#636363;
+  color: #ffffff;
+
+}
+
+h1{
+	position: absolute;
+	font-family: 'Ranchers', cursive;
+	font-size:60px;
+	color: black;
+	top:70px;
+  left:150px;
+}
+
+.profilephoto{
+  position: absolute;
+    top:50px; 
+    left:40px;
+    height:20px;
+    background-color: white;
+}
+
+.gif{
+  position: absolute;
+  top:200px;
+  left:300px;
+}
+
+
+.words1{
+  position: absolute;
+  top:530px;
+  left:850px;
+  width:500px;
+ 
+}
+.words2{
+  position: absolute;
+  top:620px;
+  left:350px;
+  width:1000px;
+ 
+}
+
+.words3{
+  position: absolute;
+  top:700px;
+  left:350px;
+  width:1000px;
+ 
+}
+
+
+.words4{
+  position: absolute;
+  bottom:10px;
+  left:800px;
+font-size:2px;
+ 
+}
+
+
+.index{
+position: absolute; 
+right:20px;
+top:100px;
+}
+
+
+
+
+
